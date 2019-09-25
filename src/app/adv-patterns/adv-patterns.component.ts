@@ -12,7 +12,7 @@ export class AdvPatternsComponent implements OnInit {
   ngOnInit() {
   }
 
-  showMessage(value) {
-    console.log(value);
+  onToggle(message, on) {
+    console.log(message, on);
   }
 }
