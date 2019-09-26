@@ -10,6 +10,7 @@ import { ToggleDirective } from './toggle/toggle.directive';
 import { ToggleProviderDirective } from './toggle/toggle-provider.directive';
 import { LabelledButtonComponent } from './labelled-button.component';
 import { LabelledStateComponent } from './labelled-state.component';
+import { FsmComponent } from './fsm/fsm.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { LabelledStateComponent } from './labelled-state.component';
     ToggleDirective,
     ToggleProviderDirective,
     LabelledButtonComponent,
-    LabelledStateComponent
+    LabelledStateComponent,
+    FsmComponent
   ],
   imports: [
     CommonModule,

@@ -1,3 +1,4 @@
+<div *ngIf="false">
 <h2>Basic</h2>
 <div toggle #firstToggle="toggle" (toggle)="onToggle('first', $event)">
 	<p>
@@ -37,3 +38,5 @@
 </div>
 <labelled-state toggleName="Second" [toggleProvider]="secondToggle"> </labelled-state>
 <labelled-button toggleName="Second" [toggleProvider]="secondToggle"> </labelled-button>
+</div>
+<fsm></fsm>
