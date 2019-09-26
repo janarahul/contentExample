@@ -23,8 +23,8 @@ export class FsmComponent implements OnInit {
       }
     });
     this.toggleService = interpret(this.toggleMachine)
-  .onTransition(state => this.currentState = (state))
-  .start();
+      .onTransition(state => this.currentState = (state))
+      .start();
 
   }
   toggleState(){
