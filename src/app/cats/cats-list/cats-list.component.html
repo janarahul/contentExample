@@ -1,0 +1,9 @@
+<ul>
+    <li *ngFor="let cat of cats">
+        <p>{{cat | json}}</p>    
+    </li>
+</ul>
+
+<ul>
+    <ng-template ngFor let-cat [ngForOf]="cats" [ngForTemplate]="catTemplateRef"></ng-template>
+</ul>

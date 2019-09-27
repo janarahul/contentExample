@@ -15,6 +15,11 @@ const routes: Routes = [
     loadChildren: () => import('./weather/weather.module').then(mod => mod.WeatherModule),
     
   },
+  {
+    path: 'cats',
+    loadChildren: () => import('./cats/cats.module').then(mod => mod.CatsModule),
+    
+  },
 
 ];
 

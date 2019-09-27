@@ -1,0 +1,5 @@
+<cats-list [cats]="cats">
+    <ng-template let-cat> 
+        <li> {{cat | json}} </li>
+    </ng-template>
+</cats-list>
